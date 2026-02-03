@@ -1,79 +1,86 @@
-# C Programming Foundations 💻
+# CPP Fundamentals 🖥️
 
 ## Overview
-This repository contains a collection of fundamental C programming scripts designed to demonstrate core concepts of the language. It serves as a practical reference for understanding syntax, data types, format specifiers, and variable management in C.
+This repository serves as a foundational collection of C++ programming lessons, designed to bridge the gap between theoretical syntax and practical application. It covers core concepts including standard output streams, data types, and arithmetic logic through clean, executable scripts.
 
 ## Features
-- **Core Syntax**: Basic structure of a C program including headers and main functions.
-- **Data Formatting**: Implementation of various placeholders for integers, floats, characters, and strings.
-- **Variable Management**: Practical usage of arrays and character strings to store and display information.
-- **Clean Code**: Well-structured examples that are easy to compile and study.
+- **Standard I/O Operations**: Clear examples of using the `iostream` library for console communication.
+- **Variable Management**: Practical implementation of integer declarations and data storage.
+- **Arithmetic Logic**: Demonstration of mathematical operators and modular arithmetic.
+- **Clean Syntax**: Follows modern C++ conventions for readability and maintainability.
 
-## Installation
-To get these scripts running on your local machine, follow these steps:
+## Getting Started
 
-1.  **Clone the Repository**:
-    ```bash
-    git clone <repository-url>
-    ```
+### Installation
+To get this project running on your local machine, follow these steps:
 
-2.  **Install a Compiler**:
-    Ensure you have a C compiler installed (like `gcc`). If you're on Linux or macOS, you likely already have it. On Windows, you can use MinGW or WSL.
+1. **Clone the Repository**:
+   ```bash
+   git clone <repository-url>
+   ```
 
-3.  **Navigate to the Directory**:
-    ```bash
-    cd <project-folder-name>/lessons
-    ```
+2. **Install a Compiler**:
+   Ensure you have a C++ compiler installed (e.g., `g++` or `clang`).
+   - On Linux/macOS: `sudo apt install g++` or use Xcode tools.
+   - On Windows: Install MinGW or use Visual Studio.
+
+### Compiling the Lessons
+Navigate to the project directory and compile individual files using the following commands:
+
+- **Hello World**:
+  ```bash
+  g++ lessons/hello-world.cpp -o hello
+  ```
+
+- **Outputs & Logic**:
+  ```bash
+  g++ lessons/outputs.cpp -o outputs
+  ```
 
 ## Usage
-Each file in the `lessons/` directory is a standalone program. To run them, you need to compile the source code first.
+Once compiled, you can run the executable binaries directly from your terminal to see the logic in action.
 
-### Hello World
-The classic entry point for any programmer.
+### Running Hello World
 ```bash
-gcc hello-world.c -o hello
 ./hello
 ```
+*Output:* `Hello World from C++`
 
-### Inputs and Placeholders
-Learn how C handles different data types using format specifiers like `%d`, `%lf`, and `%s`.
+### Running Outputs & Logic
 ```bash
-gcc inputs-placeholders.c -o placeholders
-./placeholders
+./outputs
 ```
-
-### Working with Variables
-See how to declare strings and integers to create dynamic output.
-```bash
-gcc variables.c -o variables
-./variables
-```
+*Output:* 
+- A string detailing student information with dynamic variable insertion.
+- The result of a modulo operation (5 % 2).
 
 ## Technologies Used
-| Technology | Description | Link |
-| :--- | :--- | :--- |
-| C Language | Low-level procedural programming language | [C Programming](https://en.wikipedia.org/wiki/C_(programming_language)) |
-| GCC | GNU Compiler Collection used for building the binaries | [GCC Website](https://gcc.gnu.org/) |
+
+| Technology | Purpose | Link |
+| --- | --- | --- |
+| C++ | Primary Programming Language | [Learn More](https://isocpp.org/) |
+| G++ | Compiler for C++ source code | [Learn More](https://gcc.gnu.org/) |
+| Markdown | Documentation formatting | [Learn More](https://www.markdownguide.org/) |
 
 ## Contributing
-Contributions are welcome! If you have additional scripts that could help beginners learn C, feel free to share.
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-- 🍴 Fork the repository
-- 🌿 Create a new branch (`git checkout -b feature/new-lesson`)
-- 💾 Commit your changes (`git commit -m 'Add new C lesson'`)
-- 🚀 Push to the branch (`git push origin feature/new-lesson`)
-- 🔍 Open a Pull Request
+- 📝 Fork the Project.
+- 🔨 Create your Feature Branch (`git checkout -b feature/AmazingFeature`).
+- 💾 Commit your Changes (`git commit -m 'Add some AmazingFeature'`).
+- 🚀 Push to the Branch (`git push origin feature/AmazingFeature`).
+- ✉️ Open a Pull Request.
 
 ## Author Info
-Developed with a focus on clean code and educational clarity. 
-
-- **GitHub**: [Your GitHub Profile](https://github.com/your-username)
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/your-username)
-- **Twitter**: [Your Twitter Profile](https://twitter.com/your-username)
+**Your Name**
+- Twitter: [@your_handle](https://twitter.com/your_handle)
+- LinkedIn: [your_profile](https://linkedin.com/in/your_profile)
+- Portfolio: [yourportfolio.com](https://yourportfolio.com)
 
 ---
 
-![C Language](https://img.shields.io/badge/Language-C-A8B9CC?style=for-the-badge&logo=c&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Complete-success?style=for-the-badge)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge)
+![Maintained](https://img.shields.io/badge/Maintained-Yes-blue?style=for-the-badge)
 
 [![Readme was generated by Dokugen](https://img.shields.io/badge/Readme%20was%20generated%20by-Dokugen-brightgreen)](https://www.npmjs.com/package/dokugen)
