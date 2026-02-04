@@ -3,6 +3,7 @@
 using namespace std;
 
 int main() {
+ // cout => c - output
   int semester = 1; // integer
 
   cout << "I'm a student of Mechatronics Engineering Department, currently in "
