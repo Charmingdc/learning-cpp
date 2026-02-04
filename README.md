@@ -1,86 +1,76 @@
-# CPP Fundamentals 🖥️
+# CppFundamentals: Core Concepts and Practical Lessons 💻
 
 ## Overview
-This repository serves as a foundational collection of C++ programming lessons, designed to bridge the gap between theoretical syntax and practical application. It covers core concepts including standard output streams, data types, and arithmetic logic through clean, executable scripts.
+This repository serves as a comprehensive foundation for mastering C++. It contains a curated set of lessons ranging from basic syntax and standard I/O to low-level ASCII operations and conditional logic. Designed with clarity in mind, these modules demonstrate how to leverage the C++ Standard Library for efficient problem-solving and memory management.
 
 ## Features
-- **Standard I/O Operations**: Clear examples of using the `iostream` library for console communication.
-- **Variable Management**: Practical implementation of integer declarations and data storage.
-- **Arithmetic Logic**: Demonstration of mathematical operators and modular arithmetic.
-- **Clean Syntax**: Follows modern C++ conventions for readability and maintainability.
+- **Low-Level Operations**: Practical implementation of ASCII value manipulation and arithmetic.
+- **Data Integrity**: Deep dive into primitive data types, memory sizes (sizeof), and type modifiers.
+- **Control Flow**: Robust examples of conditional statements and logical branching.
+- **Stream I/O**: Implementation of standard input/output streams and escape sequences for console formatting.
+- **String Handling**: Usage of `getline` and string manipulation for interactive CLI applications.
 
-## Getting Started
+## Installation
+Follow these steps to set up the development environment on your local machine.
 
-### Installation
-To get this project running on your local machine, follow these steps:
-
-1. **Clone the Repository**:
-   ```bash
-   git clone <repository-url>
-   ```
-
-2. **Install a Compiler**:
-   Ensure you have a C++ compiler installed (e.g., `g++` or `clang`).
-   - On Linux/macOS: `sudo apt install g++` or use Xcode tools.
-   - On Windows: Install MinGW or use Visual Studio.
-
-### Compiling the Lessons
-Navigate to the project directory and compile individual files using the following commands:
-
-- **Hello World**:
+- **Clone the Repository**
   ```bash
-  g++ lessons/hello-world.cpp -o hello
+  git clone git@github.com:Charmingdc/learning-cpp
+  cd learning-cpp
   ```
 
-- **Outputs & Logic**:
+- **Prerequisites**
+  Ensure you have a C++ compiler installed (GCC or Clang).
+  - For Ubuntu/Debian: `sudo apt install build-essential`
+  - For macOS: `xcode-select --install`
+
+- **Build Instructions**
+  Navigate to the `lessons` directory and compile any file using `g++`:
   ```bash
-  g++ lessons/outputs.cpp -o outputs
+  g++ lessons/hello-world.cpp -o hello_world
   ```
 
 ## Usage
-Once compiled, you can run the executable binaries directly from your terminal to see the logic in action.
+Each file in this project is an independent lesson. To run a specific module, compile it and execute the generated binary.
 
-### Running Hello World
-```bash
-./hello
-```
-*Output:* `Hello World from C++`
+### Example: Running the ASCII Value Lesson
+1. **Compile**:
+   ```bash
+   g++ lessons/ascii-value.cpp -o ascii_test
+   ```
+2. **Execute**:
+   ```bash
+   ./ascii_test
+   ```
+3. **Interact**: Follow the CLI prompts to see how C++ handles character-to-integer conversions and arithmetic.
 
-### Running Outputs & Logic
-```bash
-./outputs
-```
-*Output:* 
-- A string detailing student information with dynamic variable insertion.
-- The result of a modulo operation (5 % 2).
+### Example: Checking Conditional Logic
+1. **Compile**:
+   ```bash
+   g++ lessons/conditional-statements.cpp -o logic_test
+   ```
+2. **Execute**:
+   ```bash
+   ./logic_test
+   ```
 
 ## Technologies Used
-
-| Technology | Purpose | Link |
-| --- | --- | --- |
-| C++ | Primary Programming Language | [Learn More](https://isocpp.org/) |
-| G++ | Compiler for C++ source code | [Learn More](https://gcc.gnu.org/) |
-| Markdown | Documentation formatting | [Learn More](https://www.markdownguide.org/) |
-
-## Contributing
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-- 📝 Fork the Project.
-- 🔨 Create your Feature Branch (`git checkout -b feature/AmazingFeature`).
-- 💾 Commit your Changes (`git commit -m 'Add some AmazingFeature'`).
-- 🚀 Push to the Branch (`git push origin feature/AmazingFeature`).
-- ✉️ Open a Pull Request.
+| Technology | Use Case | Link |
+| :--- | :--- | :--- |
+| C++ | Core Language | [Standard C++](https://isocpp.org/) |
+| GCC / G++ | Compiler | [GNU Compiler](https://gcc.gnu.org/) |
+| Git | Version Control | [Git SCM](https://git-scm.com/) |
 
 ## Author Info
-**Your Name**
-- Twitter: [@your_handle](https://twitter.com/your_handle)
-- LinkedIn: [your_profile](https://linkedin.com/in/your_profile)
-- Portfolio: [yourportfolio.com](https://yourportfolio.com)
+- **GitHub**: [Charmingdc](https://github.com/Charmingdc)
+- **LinkedIn**: [Your Name Here]
+- **Twitter/X**: [@YourHandle]
+- **Portfolio**: [Your Portfolio Link]
 
 ---
 
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Build Status](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge)
-![Maintained](https://img.shields.io/badge/Maintained-Yes-blue?style=for-the-badge)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 [![Readme was generated by Dokugen](https://img.shields.io/badge/Readme%20was%20generated%20by-Dokugen-brightgreen)](https://www.npmjs.com/package/dokugen)
